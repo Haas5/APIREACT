@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consumo de API GraphQL</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <p>Desenvolvimento de Sistemas · 3ª série B</p>
+    <h1>Consumo de API GraphQL</h1>
+    <p>Consulte alunos, cursos e professores da comunidade escolar.</p>
+  </header>
+  <main>
+    <section aria-labelledby="titulo-alunos">
+      <div class="cabecalho-secao">
+        <h2 id="titulo-alunos">Alunos</h2>
+        <button id="atualizar-alunos" type="button">Atualizar alunos</button>
+      </div>
+      <div id="alunos" class="cards" aria-live="polite" aria-busy="true"><p>Carregando...</p></div>
+    </section>
+    <section aria-labelledby="titulo-cursos">
+      <div class="cabecalho-secao">
+        <h2 id="titulo-cursos">Cursos</h2>
+        <button id="atualizar-cursos" type="button">Atualizar cursos</button>
+      </div>
+      <div id="cursos" class="cards" aria-live="polite" aria-busy="true"><p>Carregando...</p></div>
+    </section>
+    <section aria-labelledby="titulo-professores">
+      <div class="cabecalho-secao">
+        <h2 id="titulo-professores">Professores</h2>
+        <button id="atualizar-professores" type="button">Atualizar professores</button>
+      </div>
+      <div id="professores" class="cards" aria-live="polite" aria-busy="true"><p>Carregando...</p></div>
+    </section>
+  </main>
+  <footer>Trabalho escolar • HTML, CSS, JavaScript e Fetch API</footer>
+</body>
+</html>
